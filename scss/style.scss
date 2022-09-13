@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$mainFamily: 'Lato';
+$mainColor: #fff;
+$grey: #333;
+$blue: rgba(50, 50, 226, 0.819);
+
+body {
+    background-color: black;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 8px;
+
+    .navbar {
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 18px;
+
+        .link {
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+            text-decoration: none;
+            color: $mainColor;
+            transition: 0.5s;
+        }
+
+        .link:hover {
+            text-decoration: underline;
+        }
+
+        .img-link {
+            width: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: 0.5s;
+        }
+
+        .img-link:hover {
+            background-color: rgba(255, 254, 254, 0.121);
+            border-radius: 50%;
+            padding: 7px 5px;
+        }
+
+        .qurbaqa {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+        }
+    }
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+
+    .logo {
+        font-size: 92px;
+        font-weight: 400;
+        color: $mainColor;
+        font-family: $mainFamily;
+    }
+
+    .box {
+        position: relative;
+        max-width: 580px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .lupa {
+        position: absolute;
+        left: 15px;
+        top: 50px;
+        font-size: 18px;
+        color: $grey;
+    }
+
+    .micro {
+        position: absolute;
+        top: 48px;
+        right: 25px;
+        font-size: 18px;
+        color: $blue;
+    }
+
+    input {
+        width: 100%;
+        height: 50px;
+        font-size: 15px;
+        border-radius: 25px;
+        padding-left: 45px;
+        border: none;
+        outline: none;
+        box-shadow: 1px 1px 1px 3px $grey;
+        margin-top: 35px;
+        margin-bottom: 25px;
+    }
+
+    .aloqa-operatorlar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        max-width: 480px;
+        width: 100%;
+        height: 260px;
+        margin: 0 auto;
+    }
+
+    .part {
+        display: flex;
+    }
+
+    .xizmatlar {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 120px;
+        height: 120px;
+
+        .fa-ellipsis-vertical {
+            display: none;
+        }
+
+        .fa-plus {
+            color: #000;
+            font-size: 30px;
+            background-color: $mainColor;
+            border-radius: 50%;
+            padding: 13px 15px;
+        }
+
+    }
+
+    .xizmatlar:hover {
+        background-color: rgba(255, 255, 255, 0.09);
+        border-radius: 5px;
+
+        .fa-ellipsis-vertical {
+            display: block;
+            color: $mainColor;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 18px;
+        }
+    }
+
+
+
+    .logo-brend {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    a {
+        font-size: 16px;
+        font-family: $mainFamily;
+        text-decoration: none;
+        letter-spacing: 1.2px;
+        color: $mainColor;
+    }
+}
+
+
+.foot {
+    max-width: 1380px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+        color: $mainColor;
+        font-size: 16px;
+        text-decoration: underline;
+        line-height: 25px;
+    }
+
+    .fa-pencil {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        color: $mainColor;
+    }
+
+    .fa-pencil:hover {
+        background-color: $grey;
+        border-radius: 50%;
+    }
+}
