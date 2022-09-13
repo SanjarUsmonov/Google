@@ -6,7 +6,10 @@
 }
 
 body {
-  background-color: black;
+  background-image: url("../img/desktop-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .container {
@@ -99,7 +102,7 @@ nav .navbar .qurbaqa {
   padding-left: 45px;
   border: none;
   outline: none;
-  box-shadow: 1px 1px 1px 3px #333;
+  box-shadow: 1px 1px 2px 1px #fff;
   margin-top: 35px;
   margin-bottom: 25px;
 }

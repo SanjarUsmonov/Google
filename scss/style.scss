@@ -12,7 +12,10 @@ $grey: #333;
 $blue: rgba(50, 50, 226, 0.819);
 
 body {
-    background-color: black;
+    background-image: url("../img/desktop-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .container {
@@ -115,7 +118,7 @@ nav {
         padding-left: 45px;
         border: none;
         outline: none;
-        box-shadow: 1px 1px 1px 3px $grey;
+        box-shadow: 1px 1px 2px 1px $mainColor;
         margin-top: 35px;
         margin-bottom: 25px;
     }
