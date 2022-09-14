@@ -224,7 +224,7 @@ nav {
     }
 }
 
-@media (min-width:480px) and (max-width:768px) {
+@media (min-width:481px) and (max-width:768px) {
     .container {
         max-width: 700px;
         width: 100%;
@@ -290,6 +290,85 @@ nav {
 
     .foot {
         max-width: 420px;
+        width: 100%;
+    }
+
+    .dn {
+        display: none;
+    }
+}
+
+@media (min-width:360px) and (max-width:480px) {
+    .container {
+        max-width: 400px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    nav {
+        width: 100%;
+        padding: 6px;
+
+        .navbar {
+            width: 360px;
+            padding: 16px;
+            margin: 0 auto;
+
+            .link {
+                font-size: 14px;
+            }
+
+            .img-link:hover {
+                padding: 7px 5px;
+            }
+
+            .qurbaqa {
+                width: 35px;
+                height: 35px;
+            }
+        }
+    }
+
+    .hero {
+        height: 480px;
+
+        .logo {
+            font-size: 72px;
+        }
+
+        .box {
+            max-width: 350px;
+        }
+
+        .lupa {
+            font-size: 16px;
+        }
+
+        .micro {
+            font-size: 16px;
+        }
+
+        .aloqa-operatorlar {
+            max-width: 380px;
+            width: 100%;
+            height: 180px;
+        }
+
+        .xizmatlar {
+            width: 80px;
+            height: 80px;
+        }
+
+        .logo-brend {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+    }
+
+
+    .foot {
+        max-width: 320px;
         width: 100%;
     }
 
