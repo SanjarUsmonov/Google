@@ -275,7 +275,7 @@ nav .navbar .qurbaqa {
     height: 35px;
   }
   .hero {
-    height: 480px;
+    height: 80vh;
   }
   .hero .logo {
     font-size: 72px;
@@ -297,6 +297,12 @@ nav .navbar .qurbaqa {
   .hero .xizmatlar {
     width: 80px;
     height: 80px;
+  }
+  .hero .xizmatlar .fa-plus {
+    font-size: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 8px 10px;
   }
   .hero .logo-brend {
     width: 40px;
